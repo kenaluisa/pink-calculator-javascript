@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="inputs-box">
+        <h1>Simple Calculator</h1>
+        <p>Enter two numbers and choose an operation.</p>
+        <div class="input-fields">
+            <input type="number" id="num1-el" placeholder="Enter first number">
+            <input type="number" id="num2-el" placeholder="Enter second number">
+        </div>
+    </div>
+    <div class="buttons__aritmetics">
+        <button onclick="add()">Add</button>
+        <button onclick="subtract()">Subtract</button>
+        <button onclick="divide()">Divide</button>
+        <button onclick="multiply()">Multiply</button>  
+        <button onclick="clearInputs()">Clear</button>
+    </div>
+    <div class="result"><span id="sum-el">Result: </span></div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

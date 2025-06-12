@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0;
+    margin: 0;
+    text-align: center;
+    background: url('/scrimba-3/img/background-pink.jpg') no-repeat center center fixed;
+    background-size: cover;
+
+}
+
+span {
+    border-bottom: 2px solid black;
+    padding: 4px;
+}
+
+button {
+    margin: 20px 0;
+    background: white;
+    color: black;
+    border: 1px solid black;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 8px;
+}
+
+.inputs-box {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+
+    .input-fields {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        input {
+            width: 300px;
+            padding: 15px;
+            margin: 9px 0;
+            border: 1px solid rgb(244, 122, 232);
+            border-radius: 4px;
+            
+        }
+        input:focus {
+            outline:none;
+            border-color: #af51a1;
+        }
+        input::placeholder {
+            color: #804a79;
+        }
+
+        
+    }
+}
+.buttons__aritmetics {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+
+    button {
+        width: 200px;
+        margin: 5px 0;
+        font-size: 16px;
+        color: #f0ebeb;
+        background-color: #af51a1;
+        border: 1px solid #f0e6e6;
+    }
+
+}
+
+.buttons__aritmetics :last-child {
+    grid-column: 2;
+    background-color: #ee464e;
+    border: 1px solid #f0e6e6;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    span {
+        font-size: 24px;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        margin-top: 10px;
+    }
+}
