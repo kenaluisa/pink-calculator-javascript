@@ -3,7 +3,7 @@ body {
     padding: 20px 0;
     margin: 0;
     text-align: center;
-    background: url('/scrimba-3/img/background-pink.jpg') no-repeat center center fixed;
+    background: url('/img/background-pink.jpg') no-repeat center center fixed;
     background-size: cover;
 
 }
